@@ -1,5 +1,13 @@
 <h1> Minimum Window Substring </h1>
 
+<h2> Problem </h2>
+
+Given two strings s and t of lengths m and n respectively, return the minimum window 
+substring
+ of s such that every character in t (including duplicates) is included in the window. If there is no such substring, return the empty string "".
+
+The testcases will be generated such that the answer is unique.
+
 <h2> Solution </h2>
 
 The problem asks to find the minimum window in s that contains all the characters of t. One way to approach this problem is to use a sliding window technique. We can maintain a window that starts from the beginning of s and moves forward until it contains all the characters of t. Once we have such a window, we can try to shrink it by moving the window's start pointer forward while still keeping all the characters of t in the window. This will give us the minimum window.
