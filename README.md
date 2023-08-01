@@ -4,7 +4,7 @@ Solutions in cpp for every problem of the Blind 75.
 
 ## Website
 
-You can find Leetcode BLIND 75 problems with this website : https://neetcode.io/practice
+You can find Leetcode BLIND 75 problems on this website : https://neetcode.io/practice
 
 ## Installation
 
